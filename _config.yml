@@ -1,0 +1,12 @@
+
+
+
+domain: costateixeira.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://costateixeira.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /documentation/      # place folder name if the site is served in a subfolder   
+
+
+title: "Remote theme example"
+remote_theme: pmarsceill/just-the-docs
+#color_scheme: "dark"
+search_enabled: false
