@@ -17,7 +17,7 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "just-the-docs"
-  gem 'jekyll-diagrams'
+  gem 'jekyll-plantuml'
 end
 
 
