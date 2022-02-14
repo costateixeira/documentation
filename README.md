@@ -4,7 +4,7 @@
 
 yes
 
-```plantuml
+```plantuml!
 Bob -> Alice : hello world
 ```
 
