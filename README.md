@@ -12,7 +12,7 @@ Alice <-- Bob: Another authentication Response
 @enduml
 
 
-```mermaid
+```mermaid!
   graph TD;
       A-->B;
       A-->C;
