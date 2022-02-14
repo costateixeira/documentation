@@ -6,9 +6,10 @@ url: https://costateixeira.github.io  # the base hostname and protocol for your 
 baseurl: /documentation/      # place folder name if the site is served in a subfolder   
 
 plugins:
-  - jekyll-plantuml
+#  - jekyll-plantuml
+  - jekyll-spaceship  
 
 title: "Remote theme example"
 remote_theme: pmarsceill/just-the-docs
 #color_scheme: "dark"
-search_enabled: false
+search_enabled: true
