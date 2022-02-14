@@ -22,8 +22,8 @@ jobs:
 #      with:
 #        token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: 🧪 Build and deploy
-      uses: victoriadrake/jekyll-cd@master
+#    - name: 🧪 Build and deploy
+#      uses: victoriadrake/jekyll-cd@master
 
 #    - name: Build & Deploy to GitHub Pages
 #      uses: BryanSchuetz/jekyll-deploy-gh-pages@master
