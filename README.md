@@ -8,6 +8,11 @@ yes
 Bob -> Alice : hello world
 ```
 
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+```
 
 
 
