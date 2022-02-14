@@ -18,9 +18,17 @@ jobs:
           ${{ runner.os }}-gems-
 
     # Standard usage
-    - uses:  helaili/jekyll-action@v2
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+#    - uses:  helaili/jekyll-action@v2
+#      with:
+#        token: ${{ secrets.GITHUB_TOKEN }}
+
+
+    - name: Build & Deploy to GitHub Pages
+      env: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+        GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+      uses: BryanSchuetz/jekyll-deploy-gh-pages@master
 
     # Specify the Jekyll source location as a parameter
 #    - uses: helaili/jekyll-action@v2
