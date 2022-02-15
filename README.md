@@ -1,57 +1,20 @@
-## Welcome to GitHub Pages
+---
+nav_order: 1
+title: Home 
+# the title of the page doesn't need to be the same as the file name
+# file name will be used as url, title will be used in menu and page title 
+---
 
-🚀 🐼
+## Welcome to the documentation hub
 
-yes
+A simple, ready-to-use template for adding documentation using github pages.
 
-@startuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: Another authentication Response
-@enduml
-
-
-```mermaid!
-  graph TD;
-      A-->B;
-      A-->C;
-```
-
-
-
-You can use the [editor on GitHub](https://github.com/pmarsceill/test-jtd/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pmarsceill/test-jtd/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Key features:
+* Editing done in github
+* Uses github pages and a github action to deploy the content to `<handle>.github.io/<repo>`  
+* Supports [markdown](https://markdown-tutorials.readthedocs.io/en/latest/gfm_cheat_sheet/) editing
+* Supports diagrams (written directly in the markdown): [PlantUML](https://plantuml.com), [Mermaid](https://mermaid-js.github.io/mermaid), others
+* Uses the [Just-the-docs Jekyll theme](https://pmarsceill.github.io/just-the-docs)
+  * Search functionality built in
+  * Hierarchical navigation with left-side menu
+  * Other features - feel free to discover
