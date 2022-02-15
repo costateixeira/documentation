@@ -55,9 +55,16 @@ jobs:
 
 
 
-    - name: Deploy Jekyll Site
-      uses: sujaykundu777/jekyll-deploy-action@1.0.3
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-        GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}        
+#    - name: Deploy Jekyll Site
+#      uses: sujaykundu777/jekyll-deploy-action@1.0.3
+#      env:
+#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+#        GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}        
+
+
+
+  - uses: EdricChan03/action-build-deploy-ghpages@v2
+    with:
+      github_token: ${{ secrets.GITHUB_TOKEN }} # Or ${{ github.token }}
+      # gh_pages_token: ${{ secrets.GH_PAGES_TOKEN }}
