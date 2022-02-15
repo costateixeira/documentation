@@ -1,44 +1,56 @@
 {"0": {
-    "doc": "Test",
-    "title": "Another page",
-    "content": "Test this . blah . ",
-    "url": "https://costateixeira.github.io/documentation/Another-page.html#another-page",
-    "relUrl": "/Another-page.html#another-page"
+    "doc": "Home",
+    "title": "Welcome to the documentation hub",
+    "content": "A simple, ready-to-use template for adding documentation using github pages. Key features: . | Editing done in github | Uses github pages and a github action to deploy the content to &lt;handle&gt;.github.io/&lt;repo&gt; | Supports markdown editing | Supports diagrams (written directly in the markdown): PlantUML, Mermaid, others | Uses the Just-the-docs Jekyll theme . | Search functionality built in | Hierarchical navigation with left-side menu | Other features - feel free to discover | . | . ",
+    "url": "https://costateixeira.github.io/documentation/README.html#welcome-to-the-documentation-hub",
+    "relUrl": "/README.html#welcome-to-the-documentation-hub"
   },"1": {
-    "doc": "Test",
-    "title": "Test",
+    "doc": "Home",
+    "title": "Home",
     "content": " ",
-    "url": "https://costateixeira.github.io/documentation/Another-page.html",
-    "relUrl": "/Another-page.html"
+    "url": "https://costateixeira.github.io/documentation/README.html",
+    "relUrl": "/README.html"
   },"2": {
-    "doc": "Child of Test",
-    "title": "Child of test",
-    "content": "I am a child page. ",
-    "url": "https://costateixeira.github.io/documentation/test-child.html#child-of-test",
-    "relUrl": "/test-child.html#child-of-test"
+    "doc": "Diagrams",
+    "title": "Adding diagrams",
+    "content": "Diagrams can be added directly inside the markdown files. ",
+    "url": "https://costateixeira.github.io/documentation/diagrams.html#adding-diagrams",
+    "relUrl": "/diagrams.html#adding-diagrams"
   },"3": {
-    "doc": "Child of Test",
-    "title": "Child of Test",
-    "content": " ",
-    "url": "https://costateixeira.github.io/documentation/test-child.html",
-    "relUrl": "/test-child.html"
+    "doc": "Diagrams",
+    "title": "PlantUML",
+    "content": "To add a PlantUML diagram, simply type the PlantUML code inside the PlantUML tags @startuml and @enduml or add inline code with the plantuml! directive. See the link at the end of this page for the source. You can also add mermaid diagrams, using the mermaid! directive in inline code . ",
+    "url": "https://costateixeira.github.io/documentation/diagrams.html#plantuml",
+    "relUrl": "/diagrams.html#plantuml"
   },"4": {
-    "doc": "Granchild of Test",
-    "title": "I am a grand child of test",
+    "doc": "Diagrams",
+    "title": "Diagrams",
     "content": " ",
-    "url": "https://costateixeira.github.io/documentation/test-grand-child.html#i-am-a-grand-child-of-test",
-    "relUrl": "/test-grand-child.html#i-am-a-grand-child-of-test"
+    "url": "https://costateixeira.github.io/documentation/diagrams.html",
+    "relUrl": "/diagrams.html"
   },"5": {
-    "doc": "Granchild of Test",
-    "title": "Granchild of Test",
-    "content": " ",
-    "url": "https://costateixeira.github.io/documentation/test-grand-child.html",
-    "relUrl": "/test-grand-child.html"
+    "doc": "Editing",
+    "title": "Editing content",
+    "content": "… . ",
+    "url": "https://costateixeira.github.io/documentation/editing.html#editing-content",
+    "relUrl": "/editing.html#editing-content"
   },"6": {
-    "doc": "Welcome to GitHub Pages",
-    "title": "Welcome to GitHub Pages",
-    "content": "## Welcome to GitHub Pages 🚀 🐼 yes @startuml Alice -> Bob: Authentication Request Bob --> Alice: Authentication Response Alice -> Bob: Another authentication Request Alice B; A-->C; ``` You can use the [editor on GitHub](https://github.com/pmarsceill/test-jtd/edit/master/README.md) to maintain and preview the content for your website in Markdown files. Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files. ### Markdown Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for ```markdown Syntax highlighted code block # Header 1 ## Header 2 ### Header 3 - Bulleted - List 1. Numbered 2. List **Bold** and _Italic_ and `Code` text [Link](url) and ![Image](src) ``` For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/). ### Jekyll Themes Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pmarsceill/test-jtd/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file. ### Support or Contact Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out. ",
-    "url": "https://costateixeira.github.io/documentation/",
-    "relUrl": "/"
+    "doc": "Editing",
+    "title": "Editing",
+    "content": " ",
+    "url": "https://costateixeira.github.io/documentation/editing.html",
+    "relUrl": "/editing.html"
+  },"7": {
+    "doc": "Grandchild page",
+    "title": "Grandchild page",
+    "content": "This page shows how to do a 2nd level page: . | Add the page, link to the parent and grandparent (via the titles, not the file names). | Make sure your parent has _has_children set to true. | . ",
+    "url": "https://costateixeira.github.io/documentation/grand-child.html",
+    "relUrl": "/grand-child.html"
+  },"8": {
+    "doc": "Page Structure",
+    "title": "Page Structure",
+    "content": "To achieve hierarchical structure, . ",
+    "url": "https://costateixeira.github.io/documentation/structure.html",
+    "relUrl": "/structure.html"
   }
 }
