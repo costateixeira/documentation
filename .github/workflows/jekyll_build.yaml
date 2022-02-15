@@ -64,7 +64,7 @@ jobs:
 
 
 
-  - uses: EdricChan03/action-build-deploy-ghpages@v2
-    with:
-      github_token: ${{ secrets.GITHUB_TOKEN }} # Or ${{ github.token }}
-      # gh_pages_token: ${{ secrets.GH_PAGES_TOKEN }}
+    - uses: EdricChan03/action-build-deploy-ghpages@v2
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }} # Or ${{ github.token }}
+        # gh_pages_token: ${{ secrets.GH_PAGES_TOKEN }}
