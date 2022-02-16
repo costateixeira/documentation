@@ -1,4 +1,11 @@
-# Welcome to the documentation hub
+---
+nav_order: 1
+title: Home 
+# the title of the page doesn't need to be the same as the file name
+# file name will be used as url, title will be used in menu and page title 
+--- 
+
+## Welcome to the documentation hub
 
 A simple, ready-to-use template for adding documentation using github pages.
 
