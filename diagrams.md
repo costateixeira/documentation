@@ -23,7 +23,8 @@ Bob --> Alice: Hi there
 
 ```plantuml!
 Alice -> Bob: Hi again
-Bob --> Alice: Hi there, again!
+Bob --> Alice: Hi there, again! 
+Alice -> Bob: Well, I'm heading back [[https://costateixeira.github.io/documentation/{This is the way home} home]]
 ```
 
 
