@@ -17,7 +17,7 @@ or add inline code with the plantuml! directive. See the link at the end of this
 
 @startuml
 Alice -> Bob: Hi
-Bob --> Alice: Hi there
+Bob --> Alice: Hi there, [[https://costateixeira.github.io/documentation/{This is where we are} colleague]
 @enduml
 
 
