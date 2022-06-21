@@ -18,7 +18,8 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "just-the-docs"
-  gem 'jekyll-spaceship'
+#  gem 'jekyll-spaceship'
+  gem 'jekyll-diagrams'
 end
 
 
