@@ -17,14 +17,14 @@ or add inline code with the plantuml! directive. See the link at the end of this
 
 @startuml
 Alice -> Bob: Hi
-Bob --> Alice: Hi there, [[https://costateixeira.github.io/documentation/{This is where we are} colleague]].
+Bob --> Alice: Hi there, [[https://costateixeira.github.io/documentation colleague]].
 @enduml
 
 
 ```plantuml!
 Alice -> Bob: Hi again
 Bob --> Alice: Hi there, again! 
-Alice -> Bob: Well, I'm heading back [[https://costateixeira.github.io/documentation/{This is the way home} home]]
+Alice -> Bob: Well, I'm heading back [[https://costateixeira.github.io/documentation home]]
 ```
 
 
