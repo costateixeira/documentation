@@ -7,7 +7,7 @@
   },"1": {
     "doc": "Diagrams",
     "title": "PlantUML",
-    "content": "To add a PlantUML diagram, simply type the PlantUML code inside the PlantUML tags @startuml and @enduml or add inline code with the plantuml! directive. See the link at the end of this page for the source. @startuml Alice -&gt; Bob: Hi Bob –&gt; Alice: Hi there, [[https://costateixeira.github.io/documentation/{This is where we are} colleague]]. @enduml . Alice -&gt; Bob: Hi again Bob --&gt; Alice: Hi there, again! Alice -&gt; Bob: Well, I'm heading back [[https://costateixeira.github.io/documentation/{This is the way home} home]] . You can also add mermaid diagrams, using the mermaid! directive in inline code . graph TD; A--&gt;B; A--&gt;C; . ",
+    "content": "To add a PlantUML diagram, simply type the PlantUML code inside the PlantUML tags @startuml and @enduml or add inline code with the plantuml! directive. See the link at the end of this page for the source. You can also add mermaid diagrams, using the mermaid! directive in inline code . ",
     "url": "https://costateixeira.github.io/documentation/diagrams.html#plantuml",
     "relUrl": "/diagrams.html#plantuml"
   },"2": {
