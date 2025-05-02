@@ -10,7 +10,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 domain: costateixeira.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://costateixeira.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /documentation/      # place folder name if the site is served in a subfolder   
+baseurl: /documentation      # place folder name if the site is served in a subfolder   
 
 
 plugins:
@@ -20,10 +20,12 @@ plugins:
 remote_theme: pmarsceill/just-the-docs
 #color_scheme: "dark"
 search_enabled: true
+color_scheme: custom
+
+source: docs
 
 
-
-#logo: "/assets/images/just-the-docs.png"
+logo: "/assets/images/ds.png"
 aux_links:
   "on GitHub":
     - "//github.com/costateixeira/documentation"
